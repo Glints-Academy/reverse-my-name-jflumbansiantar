@@ -1,6 +1,11 @@
 function reverseMyName(str) {
     // put your code here
-
+    let myName = "";
+    for (let i = str.length; i >= 0 ; i--) {
+        myName += str.charAt(i)
+    }
+    // console.log(myName, '--try')
+    str = myName
     return str
 }
 
